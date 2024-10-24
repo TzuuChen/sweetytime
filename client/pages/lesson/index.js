@@ -11,19 +11,26 @@ export default function Lesson() {
 		<>
 			<Header />
 			<Banner />
-			<div className="container mt-2 d-flex justify-content-evenly">
-				<div className="card-group">
-					<LessonCard />
-					<LessonCard />
-					<LessonCard />
-				</div>
-				<div className={`${styles['CTH-sm-lesson-box']}`}>
-					<div className="text-center mb-3">即將開課</div>
-					<SmLesson />
-					<SmLesson />
-					<SmLesson />
-					<SmLesson />
-					<SmLesson />
+			<div className="container mt-2">
+				<div className="row justify-content-center">
+					<div className="lesson-card-group d-flex flex-wrap col-sm-9 justify-content-around">
+						<LessonCard />
+						<LessonCard />
+						<LessonCard />
+						<LessonCard />
+						<LessonCard />
+						<LessonCard />
+						<LessonCard />
+						<LessonCard />
+					</div>
+					<div className={`${styles['CTH-sm-lesson-box']} col-sm-auto`}>
+						<div className="text-center mb-3">即將開課</div>
+						<SmLesson />
+						<SmLesson />
+						<SmLesson />
+						<SmLesson />
+						<SmLesson />
+					</div>
 				</div>
 			</div>
 			<Footer />

@@ -7,7 +7,7 @@ export default function SmLesson(props) {
 	return (
 		<>
 			<div
-				className={`${styles['CTH-sm-lesson']} d-flex justify-content-evenly align-items-center mb-2`}
+				className={`${styles['CTH-sm-lesson']} d-flex justify-content-between align-items-center mb-2`}
 			>
 				<div className={`${styles['CTH-time-box']} time-box text-center me-2`}>
 					<h4>十月</h4>
